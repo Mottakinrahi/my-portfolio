@@ -13,11 +13,21 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
-      <Competitive/>
-      <Education/>
-      <Courses/>
-      <Contact/>
+        <section id="skills">
+          <Skills />
+        </section>
+<section id="competitive">
+   <Competitive/> </section>
+
+      <section id="education">
+          <Education />
+        </section>
+        <section id="courses">
+          <Courses />
+        </section>
+       <section id="contact">
+          <Contact />
+        </section>
     </>
   );
 }
